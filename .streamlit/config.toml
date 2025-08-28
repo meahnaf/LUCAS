@@ -1,0 +1,7 @@
+[theme]
+base="dark"
+primaryColor="#4b7eff"
+
+[logger]
+level = "info"
+messageFormat = "%(asctime)s %(levelname) -7s %(name)s: %(message)s"

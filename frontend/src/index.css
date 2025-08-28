@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Existing styles... */
+
+/* Simplified Custom Scrollbar Styles */
+/* Webkit browsers (Chrome, Safari, newer versions of Edge) */
+::-webkit-scrollbar {
+    width: 4px;  /* Even smaller width */
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #CCCCCC;  /* Light gray color */
+  }
+  
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #CCCCCC transparent;
+  }

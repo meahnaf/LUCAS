@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = []
+package-mode = false
+
+[tool.poetry.scripts]
+backend = "app.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "0.115.4"
+uvicorn = "0.34.0"
+pgvector = "0.2.5"
+tiktoken = "*"
+llama-parse = "0.5.1"
+python-multipart = "0.0.5"
+langchain-openai = "0.2.14"
+psycopg-binary = "3.2.3"
+cohere = "5.9.0"
+langchain_postgres = "0.0.12"
+sentence-transformers = "2.2.2"
+azure-storage-file-datalake = "12.5.0"
+azure-storage-blob = "12.14.1"
+azure-identity = "1.7.1"
+python-dotenv = "0.21.0"
+psycopg_pool = ">=3.2.1,<4.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^5.2"
+pytest-cov = "^2.10.1"
+autoflake = "^1.4"
+flake8 = "^3.8.4"
+isort = "^5.0"
+pre-commit = "^2.8.2"
+black = "^20.8b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs]
+in-project = true
+

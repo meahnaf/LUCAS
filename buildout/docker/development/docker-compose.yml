@@ -1,0 +1,8 @@
+services:
+  chatrag-service:
+    build:
+      context: ../../../
+      dockerfile: buildout/docker/development/Dockerfile
+    image: chatrag-service
+    ports:
+      - '8501:8501'
