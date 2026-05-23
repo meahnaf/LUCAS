@@ -418,15 +418,14 @@ This project is proprietary and was developed for [Startup Name]. All rights res
 
 **[Your Name]**
 - Role: Software Engineering Intern
-- Duration: [Internship Period]
-- LinkedIn: [Your LinkedIn]
-- GitHub: [Your GitHub]
+- LinkedIn: https://www.linkedin.com/in/mdahnafali/
+- GitHub: https://github.com/meahnaf
 
 ---
 
 ## 🙏 Acknowledgments
 
-- Built during internship at [Startup Name]
+- Built during internship at NEZXAP
 - Leverages OpenAI, Azure, and LangChain technologies
 - Special thanks to the team for guidance and support
 
